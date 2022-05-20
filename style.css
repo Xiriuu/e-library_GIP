@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+#logogip {
+  width: 114px;
+  margin: 80px 43px 30px;
+}
+
+.menu {
+  float: left;
+  width: 200px;
+  height: 100%;
+  background: linear-gradient(180deg, #007BBF -178.75%, #19AFFF 100%);
+  color: #fff;
+}
+
+.menu a,
+a:active {
+  color: #fff;
+}
+
+.sub-menu {
+  text-align: left;
+  margin-left: 155px;
+  font: lighter 24px arial, helvetica, sans-serif;
+}
+
+.text-sub-menu a {
+  color: #000;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.text-menu {
+  margin: 0 25px 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.title {
+  color: #19AFFF;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.content {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.content p {
+  margin-bottom: 35px;
+}
+
+.logos {
+  margin: 0 auto 30px;
+  width: 575px;
+  height: 100px;
+}
+
+#logopot {
+  width: 268px;
+  padding-right: 90px;
+}
+
+#logoimp {
+  width: 210px;
+}
+
+.grid {
+  margin: auto;
+  width: 600px;
+}
+
+.grid img {
+  width: 245px;
+  box-shadow: 3px 4px 10px #007cbf50;
+}
+
+.grid img#admissao {
+  margin: 0 100px 0 0;
+}
+
+.text-grid {
+  margin: auto;
+  display: inline-block;
+}
+
+.text-grid#admissao {
+  margin-right: 90px;
+}
+
+.text-grid#demissao {
+  margin-left: 55px;
+}
+
+a.text-grid {
+  color: #007BBF;
+}
+
+a:active.text-grid {
+  color: #19AFFF;
+}
+
+.banner {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin: auto;
+}
+
+.banner img {
+  box-shadow: 3px 3px 10px rgba(187, 187, 187, 0.8);
+}
+
+.pops {
+  margin: auto;
+  width: 680px;
+  height: 300px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.025) 100%);
+  box-shadow: 0px 4px 24px -1px #E8DEDE;
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+}
+
+.pops h1 {
+  color: #19AFFF;
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.pops .text {
+  width: 620px;
+  /* height: 120px; */
+  margin: auto;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+}
