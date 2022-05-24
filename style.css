@@ -172,6 +172,7 @@ a:active.text-grid {
   box-shadow: 0px 4px 24px -1px #E8DEDE;
   backdrop-filter: blur(10px);
   border-radius: 30px;
+
 }
 
 .org h1 {
@@ -202,4 +203,23 @@ a:active.text-grid {
   text-align: justify;
   margin-bottom: 40px;
   font-weight: 300;
+}
+
+#footer {
+  font-weight: 300;
+  color: #19AFFF;
+  text-align: center;
+  bottom: 0;
+  padding-bottom: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#footer a {
+  color: #19AFFF;
+}
+
+#footer a:active {
+  font-weight: 400;
+  color: #007BBF;
 }
