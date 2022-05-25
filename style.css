@@ -80,6 +80,7 @@ a:active {
   margin: 0 auto 30px;
   width: 575px;
   height: 100px;
+  padding-top: 5px;
 }
 
 #logopot {
@@ -88,6 +89,7 @@ a:active {
 }
 
 #logoimp {
+  padding-top: 5px;
   width: 210px;
 }
 
